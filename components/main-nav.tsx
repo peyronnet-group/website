@@ -163,7 +163,7 @@ export function NavMenu() {
                   href="https://peyrsharp.leocorporation.dev/"
                   title="PeyrSharp"
                 >
-                  A C# library designed to make developers' job easier.
+                  A C# library designed to make developers&apos job easier.
                 </ListItem>
                 <ListItem
                   href="https://synethia.leocorporation.dev/"
