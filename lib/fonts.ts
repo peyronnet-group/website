@@ -1,6 +1,7 @@
 import {
   JetBrains_Mono as FontMono,
   Lexend_Deca as FontSans,
+  Lora as FontSerif,
   Lexend_Zetta as FontWide,
 } from "next/font/google"
 
@@ -17,4 +18,9 @@ export const fontWide = FontWide({
 export const fontMono = FontMono({
   subsets: ["latin"],
   variable: "--font-mono",
+})
+
+export const fontSerif = FontSerif({
+  subsets: ["latin"],
+  variable: "--font-serif",
 })
