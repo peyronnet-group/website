@@ -120,7 +120,7 @@ export default function IndexPage() {
             <CompanyCard
               url="https://leocorporation.dev"
               src="Logo.svg"
-              name="LeoApps"
+              name="Léo Corporation"
               desc="Application and experience creator since 2017 that make people more productive."
             />
             <CompanyCard

@@ -62,7 +62,7 @@ export function SheetMenu() {
             "flex items-center px-2 text-lg font-semibold text-muted-foreground"
           )}
         >
-          LeoApps
+          Léo Corporation
         </Link>
         <Link
           href={"https://devyus.peyronnet.group"}
@@ -91,7 +91,7 @@ export function NavMenu() {
             </Link>
           </NavigationMenuItem>
           <NavigationMenuItem>
-            <NavigationMenuTrigger>LeoApps</NavigationMenuTrigger>
+            <NavigationMenuTrigger>Léo Corporation</NavigationMenuTrigger>
             <NavigationMenuContent>
               <ul className="grid gap-3 p-6 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
                 <li className="row-span-3">
@@ -104,10 +104,10 @@ export function NavMenu() {
                         height={128}
                         width={128}
                         src={"Logo.svg"}
-                        alt={"The logo of LeoApps."}
+                        alt={"The logo of Léo Corporation."}
                       />
                       <div className="mb-2 mt-4 text-lg font-medium">
-                        LeoApps
+                        Léo Corporation
                       </div>
                       <p className="text-sm leading-tight text-muted-foreground">
                         Experience creator.
@@ -148,7 +148,7 @@ export function NavMenu() {
                         height={128}
                         width={128}
                         src={"Devyus.png"}
-                        alt={"The logo of LeoApps."}
+                        alt={"The logo of Léo Corporation."}
                       />
                       <div className="mb-2 mt-4 text-lg font-medium">
                         Devyus
