@@ -51,7 +51,7 @@ export function SheetMenu() {
         <Link
           href={"/"}
           className={cn(
-            "flex items-center text-lg font-semibold text-muted-foreground px-2"
+            "flex items-center px-2 text-lg font-semibold text-muted-foreground"
           )}
         >
           Home
@@ -59,7 +59,7 @@ export function SheetMenu() {
         <Link
           href={"https://leocorporation.dev"}
           className={cn(
-            "flex items-center text-lg font-semibold text-muted-foreground px-2"
+            "flex items-center px-2 text-lg font-semibold text-muted-foreground"
           )}
         >
           LeoApps
@@ -67,7 +67,7 @@ export function SheetMenu() {
         <Link
           href={"https://devyus.peyronnet.group"}
           className={cn(
-            "flex items-center text-lg font-semibold text-muted-foreground px-2"
+            "flex items-center px-2 text-lg font-semibold text-muted-foreground"
           )}
         >
           Devyus
@@ -215,7 +215,7 @@ ListItem.displayName = "ListItem"
 
 export function MainNav({ items }: MainNavProps) {
   return (
-    <div className="flex gap-6 md:gap-10 items-center">
+    <div className="flex items-center gap-6 md:gap-10">
       <Link href="/" className="hidden items-center space-x-2 md:flex">
         <Logo height={48} width={180} />
       </Link>

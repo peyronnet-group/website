@@ -16,7 +16,7 @@ export default function IndexPage() {
     return (
       <h1
         ref={ref}
-        className="text-3xl font-wide leading-tight tracking-tighter sm:text-3xl md:text-5xl lg:text-6xl uppercase"
+        className="font-wide text-3xl uppercase leading-tight tracking-tighter sm:text-3xl md:text-5xl lg:text-6xl"
         style={{
           transform: isInView ? "none" : "translateX(-200px)",
           opacity: isInView ? 1 : 0,
@@ -34,7 +34,7 @@ export default function IndexPage() {
     return (
       <p
         ref={ref}
-        className="text-lg text-muted-foreground sm:text-xl font-serif"
+        className="font-serif text-lg text-muted-foreground sm:text-xl"
         style={{
           opacity: isInView ? 1 : 0,
           transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 1s",
@@ -72,7 +72,7 @@ export default function IndexPage() {
         transition={{ type: "spring", stiffness: 400, damping: 10 }}
         ref={ref}
         href={props.url}
-        className="border border-slate-500 p-2 m-2 rounded-xl flex flex-col items-center"
+        className="m-2 flex flex-col items-center rounded-xl border border-slate-500 p-2"
         style={{
           transition: "all cubic-bezier(0.17, 0.55, 0.55, 1) 1s",
           transform: isInView ? "none" : "translateY(-80px)",
@@ -85,7 +85,7 @@ export default function IndexPage() {
           src={props.src}
           alt={`The logo of ${props.name}.`}
         />
-        <h2 className="font-bold text-xl">{props.name}</h2>
+        <h2 className="text-xl font-bold">{props.name}</h2>
         <p className="text-center">{props.desc}</p>
       </motion.a>
     )
@@ -93,7 +93,7 @@ export default function IndexPage() {
   return (
     <>
       <div className="container">
-        <section className="flex flex-col justify-center items-center gap-2 min-h-screen">
+        <section className="flex min-h-screen flex-col items-center justify-center gap-2">
           <Title>Where the future unfolds.</Title>
           <Paragraph>
             Peyronnet Group is a company that specializes in designing and
@@ -106,7 +106,7 @@ export default function IndexPage() {
         </section>
         <section
           id="innovation"
-          className="flex flex-col lg:grid grid-cols-2 justify-center items-center gap-2 min-h-screen"
+          className="flex min-h-screen grid-cols-2 flex-col items-center justify-center gap-2 lg:grid"
         >
           <div>
             <Title>The home of innovation.</Title>
@@ -116,7 +116,7 @@ export default function IndexPage() {
               solutions for different needs.
             </Paragraph>
           </div>
-          <div className="flex flex-col sm:grid gap-2 sm:grid-cols-2">
+          <div className="flex flex-col gap-2 sm:grid sm:grid-cols-2">
             <CompanyCard
               url="https://leocorporation.dev"
               src="Logo.svg"
@@ -130,7 +130,7 @@ export default function IndexPage() {
             />
           </div>
         </section>
-        <section className="min-h-screen flex flex-col justify-center">
+        <section className="flex min-h-screen flex-col justify-center">
           <Title>A trusted place.</Title>
           <Paragraph>
             At Peyronnet Group, we are more than just a company. We are a
@@ -144,7 +144,7 @@ export default function IndexPage() {
             in shaping the future.
           </Paragraph>
         </section>
-        <section className="min-h-screen flex flex-col justify-center">
+        <section className="flex min-h-screen flex-col justify-center">
           <Title>Open Source as a core value.</Title>
           <Paragraph>
             At Peyronnet Group, we believe in the power of open source to foster
