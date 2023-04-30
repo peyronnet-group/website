@@ -86,9 +86,9 @@ export default function PrivacyPage() {
         </h2>
         <p>
           You can opt-out of receiving marketing emails from us at any time by
-          clicking the "unsubscribe" link at the bottom of our emails. You can
-          also disable cookies in your browser settings, although this may
-          affect your ability to use certain features of our website and
+          clicking the &quot;unsubscribe&quot; link at the bottom of our emails.
+          You can also disable cookies in your browser settings, although this
+          may affect your ability to use certain features of our website and
           applications.
         </p>
         <h2 className="m-4 text-left font-wide text-xl font-bold uppercase leading-tight tracking-tighter">
