@@ -1,6 +1,7 @@
 "use client"
 
 import { useRef } from "react"
+import Image from "next/image"
 import Link from "next/link"
 import { motion, useInView } from "framer-motion"
 
@@ -26,7 +27,7 @@ export default function IndexPage() {
           opacity: isInView ? 1 : 0,
         }}
       >
-        <img
+        <Image
           height={128}
           width={128}
           src={props.src}

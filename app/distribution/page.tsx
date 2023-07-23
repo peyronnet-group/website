@@ -1,5 +1,7 @@
 "use client"
 
+import { Metadata } from "next"
+
 import {
   Accordion,
   AccordionContent,
@@ -8,6 +10,9 @@ import {
 } from "@/components/ui/accordion"
 import { Paragraph, Title } from "@/components/text"
 
+export const metadata: Metadata = {
+  title: "Distribution",
+}
 export default function DisPage() {
   return (
     <div className="container grid justify-center">
@@ -28,7 +33,7 @@ export default function DisPage() {
               <p>
                 Léo Corporation and Devyus may deliver products to download. We
                 have a few places where you can safely download our software and
-                applications, we call them "trusted sources":
+                applications, we call them &ldquo;trusted sources&rdquo;:
               </p>
               <ul className="ml-8 list-disc">
                 <li>
@@ -147,7 +152,8 @@ export default function DisPage() {
             </AccordionTrigger>
             <AccordionContent>
               No, we do not publish our software on third-party websites. For
-              more informations, see "Where can you download our softwares?"
+              more informations, see &ldquo;Where can you download our
+              softwares?&rdquo;
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-4">
@@ -159,7 +165,7 @@ export default function DisPage() {
               If you downloaded one of our software from either the official
               GitHub repo or the web store, you have nothing to worry about.
               These warnings are issued by your antivirus because our apps
-              aren't signed with a valid certificate.
+              aren&apos;t signed with a valid certificate.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-5">
