@@ -67,12 +67,12 @@ export default function IndexPage() {
           <div className="flex flex-col gap-2 sm:grid sm:grid-cols-2">
             <CompanyCard
               url="https://leocorporation.dev"
-              src="Logo.svg"
+              src="/Logo.svg"
               name="Léo Corporation"
               desc="Application and experience creator since 2017 that make people more productive."
             />
             <CompanyCard
-              src="Devyus.png"
+              src="/Devyus.png"
               name="Devyus"
               desc="Organization that specializes in making high-quality developer libraries that help developers create amazing applications."
             />

@@ -1,7 +1,5 @@
 "use client"
 
-import { Metadata } from "next"
-
 import {
   Accordion,
   AccordionContent,
@@ -10,9 +8,6 @@ import {
 } from "@/components/ui/accordion"
 import { Paragraph, Title } from "@/components/text"
 
-export const metadata: Metadata = {
-  title: "Distribution",
-}
 export default function DisPage() {
   return (
     <div className="container grid justify-center">
