@@ -82,11 +82,11 @@ export default function DisPage() {
                     <li>
                       <a
                         className="underline"
-                        href="https://www.youtube.com/@Leo-Corporation"
+                        href="https://www.youtube.com/@PeyronnetGroup"
                       >
                         YouTube
                       </a>{" "}
-                      (@Leo-Corporation)
+                      (@PeyronnetGroup)
                     </li>
                     <li>
                       <a
