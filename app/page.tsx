@@ -46,7 +46,7 @@ export default function IndexPage() {
           <Paragraph>
             Peyronnet Group is a company that specializes in designing and
             delivering innovative solutions for various industries and sectors.
-            The company&aposs vision is to create experiences that are already
+            The company&apos;s vision is to create experiences that are already
             in the future, by combining cutting-edge technology, creativity and
             user-centric design.
           </Paragraph>
