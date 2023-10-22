@@ -1,15 +1,10 @@
-# next-template
+[![Netlify Status](https://api.netlify.com/api/v1/badges/59ff55fd-b185-4da8-b0f5-510064508b09/deploy-status)](https://app.netlify.com/sites/peyronnet/deploys)
 
-A Next.js 13 template for building apps with Radix UI and Tailwind CSS.
+# Official website of Peyronnet Group
+## About
+This is the repo of the [official website](https://peyronnet.group) of the Peyronnet Group.
 
-## Usage
-
-```bash
-npx create-next-app -e https://github.com/shadcn/next-template
-```
-
-## Features
-
+## Built using
 - Radix UI Primitives
 - Tailwind CSS
 - Fonts with `next/font`
@@ -19,5 +14,4 @@ npx create-next-app -e https://github.com/shadcn/next-template
 - Tailwind CSS class sorting, merging and linting.
 
 ## License
-
-Licensed under the [MIT license](https://github.com/shadcn/ui/blob/main/LICENSE.md).
+This project is under the [MIT License](LICENSE).

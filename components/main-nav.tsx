@@ -65,7 +65,7 @@ export function SheetMenu() {
           Léo Corporation
         </Link>
         <Link
-          href={"https://devyus.peyronnet.group"}
+          href={"https://dev.peyronnet.group"}
           className={cn(
             "flex items-center px-2 text-lg font-semibold text-muted-foreground"
           )}
@@ -142,7 +142,7 @@ export function NavMenu() {
                   <NavigationMenuLink asChild>
                     <a
                       className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
-                      href="https://leocorporation.dev"
+                      href="https://dev.peyronnet.group"
                     >
                       <img
                         height={128}

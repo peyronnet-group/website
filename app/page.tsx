@@ -9,35 +9,11 @@ import { siteConfig } from "@/config/site"
 import { buttonVariants } from "@/components/ui/button"
 import SiteFooter from "@/components/footer"
 import { AnimatedLink, Paragraph, Title } from "@/components/text"
+import { Separator } from "@/components/ui/separator"
+import { HoverCard, HoverCardContent, HoverCardTrigger } from "@/components/ui/hover-card"
 
 export default function IndexPage() {
-  function CompanyCard(props) {
-    const ref = useRef(null)
-    const isInView = useInView(ref, { once: true })
-    return (
-      <motion.a
-        whileHover={{ transform: "translateY(-20px)" }}
-        transition={{ type: "spring", stiffness: 400, damping: 10 }}
-        ref={ref}
-        href={props.url}
-        className="m-2 flex flex-col items-center rounded-xl border border-slate-500 p-2"
-        style={{
-          transition: "all cubic-bezier(0.17, 0.55, 0.55, 1) 1s",
-          transform: isInView ? "none" : "translateY(-80px)",
-          opacity: isInView ? 1 : 0,
-        }}
-      >
-        <Image
-          height={128}
-          width={128}
-          src={props.src}
-          alt={`The logo of ${props.name}.`}
-        />
-        <h2 className="text-xl font-bold">{props.name}</h2>
-        <p className="text-center">{props.desc}</p>
-      </motion.a>
-    )
-  }
+
   return (
     <>
       <div className="container">
@@ -54,28 +30,44 @@ export default function IndexPage() {
         </section>
         <section
           id="innovation"
-          className="flex min-h-screen grid-cols-2 flex-col items-center justify-center gap-2 lg:grid"
+          className="flex min-h-screen flex-col items-center justify-center"
         >
-          <div>
-            <Title>The home of innovation.</Title>
-            <Paragraph>
-              Peyronnet Group is the home of innovation and an experience
-              creator. It has two divisions that offer state-of-the-art
-              solutions for different needs.
-            </Paragraph>
-          </div>
-          <div className="flex flex-col gap-2 sm:grid sm:grid-cols-2">
-            <CompanyCard
-              url="https://leocorporation.dev"
-              src="/Logo.svg"
-              name="Léo Corporation"
-              desc="Application and experience creator since 2017 that make people more productive."
-            />
-            <CompanyCard
-              src="/Devyus.png"
-              name="Devyus"
-              desc="Organization that specializes in making high-quality developer libraries that help developers create amazing applications."
-            />
+          <Title>The home of innovation.</Title>
+          <Paragraph>
+            Peyronnet Group is the home of innovation and an experience
+            creator. It has different divisions focused on different areas: Léo Corporation creates applications aimed at improving productivity, Devyus builds tools for developers and Synapsy creates AI-related web experiences.
+          </Paragraph>
+
+          <div className="flex space-x-4 mt-8">
+            <HoverCard>
+              <HoverCardTrigger><Link href={"https://leocorporation.dev"}>
+                <Image height={48} width={48} className="saturate-0 opacity-50 hover:opacity-100 hover:saturate-100 transition duration-300" alt="Logo of Léo Corporation" src="Logo.svg" />
+              </Link></HoverCardTrigger>
+              <HoverCardContent>
+                Application and experience creator since 2017 that makes people more productive.
+              </HoverCardContent>
+            </HoverCard>
+
+            <Separator orientation="vertical" className="h-auto" />
+            <HoverCard>
+              <HoverCardTrigger><Link href={"https://dev.peyronnet.group"}>
+                <Image height={48} width={48} className="saturate-0 opacity-50 hover:opacity-100 hover:saturate-100 transition duration-300" alt="Logo of Devyus" src="/Devyus.png" />
+              </Link></HoverCardTrigger>
+              <HoverCardContent>
+                Organization that specializes in making high-quality developer libraries that help developers create amazing applications.
+              </HoverCardContent>
+            </HoverCard>
+
+            <Separator orientation="vertical" className="h-auto" />
+            <HoverCard>
+              <HoverCardTrigger><Link href={"#"}>
+                <Image height={48} width={48} className="saturate-0 opacity-50 hover:opacity-100 hover:saturate-100 transition duration-300" alt="Logo of Synapsy" src="/Synapsy.png" />
+              </Link></HoverCardTrigger>
+              <HoverCardContent>
+                Where Artificial Intelligence Meets Experiences. Synapsy focuses on making AI-powered web experiences.
+              </HoverCardContent>
+            </HoverCard>
+
           </div>
         </section>
         <section className="flex min-h-screen flex-col justify-center">
