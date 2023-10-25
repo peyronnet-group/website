@@ -42,6 +42,9 @@ export default function DisPage() {
                   ,{" "}
                   <a className="underline" href="https://github.com/DevyusCode">
                     @DevyusCode
+                  </a>, {" "}
+                  <a className="underline" href="https://github.com/synapsy-ai">
+                    @synapsy-ai
                   </a>{" "}
                   and{" "}
                   <a
@@ -93,9 +96,9 @@ export default function DisPage() {
                         className="underline"
                         href="https://twitter.com/LeoCorpNews"
                       >
-                        Twitter
+                        X (Twitter)
                       </a>{" "}
-                      (@LeoCorpNews)
+                      (@LeoCorpNews and @PeyronnetGroup)
                     </li>
                     <li>
                       <a
