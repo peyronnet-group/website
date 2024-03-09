@@ -43,10 +43,17 @@ export default function CGV() {
 
             <h2 className="text-md font-wide uppercase mt-4">Article 7. Responsabilité </h2>
             <p>La société Groupe Peyronnet, dans le processus de vente à distance, n&apos;est tenue que par une obligation de moyens. Sa responsabilité ne pourra être engagée pour un dommage résultant de l&apos;utilisation du réseau Internet tel que perte de données, intrusion, virus, rupture du service, ou autres problèmes involontaires.</p>
-            <h2 className="text-md font-wide uppercase mt-4">Article 8. Données à caractère personnel</h2>
+            
+            <h2 className="text-md font-wide uppercase mt-4">Article 8. Gestion et souscription à un abonnement</h2>
+            <p>En tant que client du groupe Peyronnet, vous avez la possibilité de souscrire à un abonnement proposé par l'une de nos filiales (Léo Corporation, Devyus, ou Synapsy). Vous avez le droit d'annuler votre abonnement à tout moment, sans frais ni pénalités. Cette annulation peut être effectuée directement depuis votre espace client en ligne, et prendra effet immédiatement. Il est possible de souscrire à plusieurs abonnements simultanément au sein du groupe Peyronnet, vous permettant de combiner plusieurs produits sur un seul compte.
+            </p>
+            <p>En cas de non-paiement de votre abonnement ou si une tentative de paiement échoue, les avantages liés à celui-ci seront automatiquement et immédiatement révoqués. Nous vous encourageons donc à maintenir vos informations de paiement à jour pour éviter toute interruption de service.</p>
+            <p>Un essai gratuit peut être proposé exclusivement sur le site d'une filiale du groupe Peyronnet et ne pas être disponible sur le site principal du groupe. De plus, cet essai gratuit peut être offert lors de votre première commande chez le groupe Peyronnet. Cependant, une fois la période d'essai terminée, cette éligibilité est retirée pour tous les produits du groupe.</p>
+            <p>Si vous ne choisissez pas d'annuler votre essai gratuit avant la fin de la période d'essai, le prélèvement automatique mensuel, annuel, ou selon le cycle de facturation auquel vous avez souscrit, commencera dès l'expiration de cette période. Pour éviter ce prélèvement automatique dans le cas où vous ne souhaitez pas poursuivre vers un abonnement payant, vous devez annuler manuellement l'essai dans votre espace compte une heure avant la date limite.</p>
+       
+            <h2 className="text-md font-wide uppercase mt-4">Article 9. Données à caractère personnel</h2>
             <p>
                 La société Groupe Peyronnet s&apos;engage à préserver la confidentialité des informations fournies par l&apos;acheteur, qu&apos;il serait amené à transmettre pour l&apos;utilisation de certains services. Toute information le concernant est soumise aux dispositions de la loi n° 78-17 du 6 janvier 1978. A ce titre, l&apos;internaute dispose d&apos;un droit d&apos;accès, de modification et de suppression des informations le concernant. Il peut en faire la demande à tout moment par email à l&apos;adresse suivante :  <Link className="underline" href="mailto:peyronnet-group@outlook.com">peyronnet-group@outlook.com</Link>.
-
             </p>
         </section>
     </main>
