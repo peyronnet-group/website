@@ -1,11 +1,11 @@
-"use client"
+"use client";
 
-import { Paragraph, Title } from "@/components/text"
+import { Paragraph, Title } from "@/components/text";
 
 export default function PrivacyPage() {
   return (
     <div className="container grid justify-center">
-      <section className="flex min-h-[50vh] flex-col items-center justify-center gap-2">
+      <section className="flex min-h-[50vh] print:min-h-[20vh] flex-col items-center justify-center gap-2">
         <Title>Privacy policy</Title>
         <Paragraph>Last edited: April, 30th 2023</Paragraph>
       </section>
@@ -125,5 +125,5 @@ export default function PrivacyPage() {
         </p>
       </section>
     </div>
-  )
+  );
 }
