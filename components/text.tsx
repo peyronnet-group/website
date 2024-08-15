@@ -1,10 +1,10 @@
-import { useRef } from "react"
-import Link from "next/link"
-import { useInView } from "framer-motion"
+import { useRef } from "react";
+import Link from "next/link";
+import { useInView } from "framer-motion";
 
 export function Title({ children }) {
-  const ref = useRef(null)
-  const isInView = useInView(ref, { once: true })
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
 
   return (
     <h1
@@ -18,12 +18,12 @@ export function Title({ children }) {
     >
       {children}
     </h1>
-  )
+  );
 }
 
 export function Paragraph({ children }) {
-  const ref = useRef(null)
-  const isInView = useInView(ref, { once: true })
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
   return (
     <p
       ref={ref}
@@ -35,12 +35,12 @@ export function Paragraph({ children }) {
     >
       {children}
     </p>
-  )
+  );
 }
 
 export function AnimatedLink({ children, href }) {
-  const ref = useRef(null)
-  const isInView = useInView(ref, { once: true })
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
   return (
     <Link
       ref={ref}
@@ -53,5 +53,5 @@ export function AnimatedLink({ children, href }) {
     >
       {children}
     </Link>
-  )
+  );
 }

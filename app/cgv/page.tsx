@@ -180,7 +180,8 @@ export default function CGV() {
           commencera dès l&apos;expiration de cette période. Pour éviter ce
           prélèvement automatique dans le cas où vous ne souhaitez pas
           poursuivre vers un abonnement payant, vous devez annuler manuellement
-          l&apos;essai dans votre espace compte une heure avant la date limite.
+          l&apos;essai dans votre espace compte une heure avant la date limite
+          au plus tard.
         </p>
 
         <h2 className="text-md font-wide uppercase mt-4">
