@@ -1,53 +1,59 @@
-import Link from "next/link"
+import Link from "next/link";
 
-import Logo from "./logo"
+import Logo from "./logo";
 
 export default function SiteFooter() {
   return (
-    <footer className="flex flex-col justify-center space-y-2 px-5 py-10 sm:grid sm:grid-cols-3">
+    <footer className="flex flex-col justify-center space-y-2 px-5 py-10 sm:grid sm:grid-cols-2 border-t print:hidden">
       <div className="flex items-center justify-center sm:justify-normal">
         <Link href="/">
           <Logo width={256} height={64} />
         </Link>
       </div>
-      <div className="m-4 sm:m-0">
-        <h3 className="font-wide text-lg uppercase leading-tight tracking-tighter">
-          Links
-        </h3>
-        <div className="flex flex-col">
-          <Link
-            className="hover:underline"
-            href={"https://blog.peyronnet.group"}
-          >
-            Blog
-          </Link>
-          <Link className="hover:underline" href={"/privacy"}>
-            Privacy policy
-          </Link>
-        </div>
-      </div>
-      <div className="m-4 sm:m-0">
-        <h3 className="font-wide text-lg uppercase leading-tight tracking-tighter">
-          Socials
-        </h3>
-        <div className="flex flex-col">
-          <Link
-            className="hover:underline"
-            href={"https://twitter.com/PeyronnetGroup"}
-          >
-            Twitter
-          </Link>
-          <Link
-            className="hover:underline"
-            href={"https://www.youtube.com/@PeyronnetGroup"}
-          >
-            YouTube
-          </Link>
-          <Link className="hover:underline" href={""}>
-            Facebook
-          </Link>
-        </div>
+      <div className="m-4 sm:m-0 flex flex-wrap justify-center sm:justify-normal">
+        <FooterLink
+          title="Blog"
+          description="Articles and updates from the team"
+          link="https://blog.peyronnet.group"
+        />
+        <FooterLink
+          title="Privacy Policy"
+          description="Learn more about our policies relative to your privacy"
+          link="/privacy"
+        />
+
+        <FooterLink
+          title="X"
+          description="Follow us on X to get te latest updates"
+          link="https://twitter.com/PeyronnetGroup"
+        />
+
+        <FooterLink
+          title="YouTube"
+          description="Watch our videos about our products"
+          link="https://www.youtube.com/@PeyronnetGroup"
+        />
       </div>
     </footer>
-  )
+  );
+}
+
+interface FooterLinkProps {
+  title: string;
+  description: string;
+  link: string;
+}
+
+function FooterLink(props: FooterLinkProps) {
+  return (
+    <Link
+      href={props.link}
+      className="p-4 w-64 block hover:bg-muted border border-transparent rounded-md transition-all hover:border-muted-foreground/50"
+    >
+      <h3 className="text-lg leading-tight tracking-tighter font-bold">
+        {props.title}
+      </h3>
+      <p className="text-muted-foreground">{props.description}</p>
+    </Link>
+  );
 }
