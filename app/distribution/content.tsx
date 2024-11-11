@@ -1,12 +1,12 @@
-"use client"
+"use client";
 
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/components/ui/accordion"
-import { Paragraph, Title } from "@/components/text"
+} from "@/components/ui/accordion";
+import { Paragraph, Title } from "@/components/text";
 
 export default function DisPage() {
   return (
@@ -184,5 +184,5 @@ export default function DisPage() {
         </Accordion>
       </section>
     </div>
-  )
+  );
 }

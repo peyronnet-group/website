@@ -1,4 +1,4 @@
-export type SiteConfig = typeof siteConfig
+export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
   name: "Peyronnet Group",
@@ -14,4 +14,4 @@ export const siteConfig = {
     github: "https://github.com/peyronnet-group",
     docs: "https://peyronnet.group",
   },
-}
+};
