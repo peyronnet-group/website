@@ -1,13 +1,11 @@
-"use client"
+"use client";
 
-import * as React from "react"
-import Link from "next/link"
-import { Menu } from "lucide-react"
-import { useTheme } from "next-themes"
+import * as React from "react";
+import Link from "next/link";
+import { Menu } from "lucide-react";
 
-import { NavItem } from "@/types/nav"
-import { siteConfig } from "@/config/site"
-import { cn } from "@/lib/utils"
+import { NavItem } from "@/types/nav";
+import { cn } from "@/lib/utils";
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -16,22 +14,20 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
-} from "@/components/ui/navigation-menu"
-import { Icons } from "@/components/icons"
+} from "@/components/ui/navigation-menu";
 
-import Logo from "./logo"
-import { Button } from "./ui/button"
+import Logo from "./logo";
+import { Button } from "./ui/button";
 import {
   Sheet,
   SheetContent,
-  SheetDescription,
   SheetHeader,
   SheetTitle,
   SheetTrigger,
-} from "./ui/sheet"
+} from "./ui/sheet";
 
 interface MainNavProps {
-  items?: NavItem[]
+  items?: NavItem[];
 }
 export function SheetMenu() {
   return (
@@ -51,7 +47,7 @@ export function SheetMenu() {
         <Link
           href={"/"}
           className={cn(
-            "flex items-center px-2 text-lg font-semibold text-muted-foreground"
+            "flex items-center px-2 text-lg font-semibold text-muted-foreground",
           )}
         >
           Home
@@ -59,7 +55,7 @@ export function SheetMenu() {
         <Link
           href={"https://leocorporation.dev"}
           className={cn(
-            "flex items-center px-2 text-lg font-semibold text-muted-foreground"
+            "flex items-center px-2 text-lg font-semibold text-muted-foreground",
           )}
         >
           Léo Corporation
@@ -67,14 +63,14 @@ export function SheetMenu() {
         <Link
           href={"https://dev.peyronnet.group"}
           className={cn(
-            "flex items-center px-2 text-lg font-semibold text-muted-foreground"
+            "flex items-center px-2 text-lg font-semibold text-muted-foreground",
           )}
         >
           Devyus
         </Link>
       </SheetContent>
     </Sheet>
-  )
+  );
 }
 export function NavMenu() {
   return (
@@ -97,7 +93,7 @@ export function NavMenu() {
                 <li className="row-span-3">
                   <NavigationMenuLink asChild>
                     <a
-                      className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
+                      className="flex size-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
                       href="https://leocorporation.dev"
                     >
                       <img
@@ -141,7 +137,7 @@ export function NavMenu() {
                 <li className="row-span-3">
                   <NavigationMenuLink asChild>
                     <a
-                      className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
+                      className="flex size-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
                       href="https://dev.peyronnet.group"
                     >
                       <img
@@ -184,7 +180,7 @@ export function NavMenu() {
         </NavigationMenuList>
       </NavigationMenu>
     </>
-  )
+  );
 }
 
 const ListItem = React.forwardRef<
@@ -198,7 +194,7 @@ const ListItem = React.forwardRef<
           ref={ref}
           className={cn(
             "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
-            className
+            className,
           )}
           {...props}
         >
@@ -209,9 +205,9 @@ const ListItem = React.forwardRef<
         </a>
       </NavigationMenuLink>
     </li>
-  )
-})
-ListItem.displayName = "ListItem"
+  );
+});
+ListItem.displayName = "ListItem";
 
 export function MainNav({ items }: MainNavProps) {
   return (
@@ -221,5 +217,5 @@ export function MainNav({ items }: MainNavProps) {
       </Link>
       <NavMenu />
     </div>
-  )
+  );
 }
