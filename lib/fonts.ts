@@ -1,8 +1,8 @@
 import {
   JetBrains_Mono as FontMono,
   Manrope as FontSans,
-  Lora as FontSerif,
-  Lexend_Zetta as FontWide,
+  Libre_Baskerville as FontSerif,
+  Lexend_Giga as FontWide,
 } from "next/font/google";
 
 export const fontSans = FontSans({
@@ -22,5 +22,6 @@ export const fontMono = FontMono({
 
 export const fontSerif = FontSerif({
   subsets: ["latin"],
+  weight: "400",
   variable: "--font-serif",
 });
