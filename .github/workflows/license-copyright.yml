@@ -18,4 +18,4 @@ jobs:
         commitTitle: 'Updated license copyright'
         assignees: 'lpeyr'
         labels: documentation
-        path: LICENSE.md
+        path: LICENSE
