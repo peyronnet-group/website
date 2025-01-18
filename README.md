@@ -1,8 +1,8 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/59ff55fd-b185-4da8-b0f5-510064508b09/deploy-status)](https://app.netlify.com/sites/peyronnet/deploys)
 
-# Official website of Peyronnet Group
+# Official website of GRP
 ## About
-This is the repo of the [official website](https://peyronnet.group) of the Peyronnet Group.
+This is the repo of the [official website](https://peyronnet.group) of GRP.
 
 ## Built using
 - Radix UI Primitives
