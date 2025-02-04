@@ -9,13 +9,13 @@ jobs:
   run:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
-      with:
-        fetch-depth: 0
-    - uses: FantasticFiasco/action-update-license-year@v3
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        commitTitle: 'Updated license copyright'
-        assignees: 'lpeyr'
-        labels: documentation
-        path: LICENSE
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: FantasticFiasco/action-update-license-year@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commitTitle: "Updated license copyright"
+          assignees: "lpeyr"
+          labels: documentation
+          path: LICENSE

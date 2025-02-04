@@ -1,10 +1,13 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/59ff55fd-b185-4da8-b0f5-510064508b09/deploy-status)](https://app.netlify.com/sites/peyronnet/deploys)
 
 # Official website of GRP
+
 ## About
+
 This is the repo of the [official website](https://peyronnet.group) of GRP.
 
 ## Built using
+
 - Radix UI Primitives
 - Tailwind CSS
 - Fonts with `next/font`
@@ -14,4 +17,5 @@ This is the repo of the [official website](https://peyronnet.group) of GRP.
 - Tailwind CSS class sorting, merging and linting.
 
 ## License
+
 This project is under the [MIT License](LICENSE).
