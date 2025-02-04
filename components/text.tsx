@@ -12,7 +12,7 @@ export function Title(props: {
   return (
     <h1
       ref={ref}
-      className={`z-50 font-wide text-3xl uppercase leading-tight tracking-tighter sm:text-3xl md:text-5xl lg:text-6xl ${props.className}`}
+      className={`font-wide z-50 text-3xl leading-tight tracking-tighter uppercase sm:text-3xl md:text-5xl lg:text-6xl ${props.className}`}
       style={{
         transform: isInView ? "none" : "translateX(-200px)",
         opacity: isInView ? 1 : 0,
@@ -33,7 +33,7 @@ export function Paragraph(props: {
   return (
     <p
       ref={ref}
-      className={`text-lg text-muted-foreground sm:text-xl ${props.className}`}
+      className={`text-muted-foreground text-lg sm:text-xl ${props.className}`}
       style={{
         opacity: isInView ? 1 : 0,
         transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 1s",

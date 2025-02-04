@@ -8,12 +8,12 @@ export default function CGV() {
   return (
     <main className="flex flex-col items-center p-4 text-justify">
       <section className="py-16">
-        <h1 className="text-center font-wide text-3xl uppercase">
+        <h1 className="font-wide text-center text-3xl uppercase">
           Conditions Générales de vente
         </h1>
       </section>
       <section className="max-w-4xl">
-        <h2 className="text-md mt-4 font-wide uppercase">Article 1. Objet </h2>
+        <h2 className="text-md font-wide mt-4 uppercase">Article 1. Objet </h2>
         <p>
           Les présentes conditions de vente visent à définir les relations
           contractuelles entre Groupe Peyronnet et l&apos;acheteur et les
@@ -43,7 +43,7 @@ export default function CGV() {
           son site. De ce fait, les conditions applicables seront celles en
           vigueur à la date de la commande par l&apos;acheteur.
         </p>
-        <h2 className="text-md mt-4 font-wide uppercase">
+        <h2 className="text-md font-wide mt-4 uppercase">
           Article 2. Produits{" "}
         </h2>
         <p>
@@ -66,7 +66,7 @@ export default function CGV() {
           autorisent pleinement l&apos;entrée sur leur territoire de ces
           produits.{" "}
         </p>
-        <h2 className="text-md mt-4 font-wide uppercase">Article 3. Tarifs </h2>
+        <h2 className="text-md font-wide mt-4 uppercase">Article 3. Tarifs </h2>
         <p>
           Les prix figurant sur les fiches produits du catalogue internet et
           sont des prix en Euros (€) hors taxe (HT) qui ne tiennent pas compte
@@ -79,7 +79,7 @@ export default function CGV() {
           supplément du prix des produits achetés suivant le montant total de la
           commande.
         </p>
-        <h2 className="text-md mt-4 font-wide uppercase">
+        <h2 className="text-md font-wide mt-4 uppercase">
           Article 4. Commande et modalités de paiement{" "}
         </h2>
         <p>
@@ -114,7 +114,7 @@ export default function CGV() {
           </Link>
           .
         </p>
-        <h2 className="text-md mt-4 font-wide uppercase">
+        <h2 className="text-md font-wide mt-4 uppercase">
           Article 5. Réserve de propriété{" "}
         </h2>
         <p>
@@ -122,7 +122,7 @@ export default function CGV() {
           des produits vendus jusqu&apos;au parfait encaissement du prix, en
           principal, frais et taxes compris.
         </p>
-        <h2 className="text-md mt-4 font-wide uppercase">
+        <h2 className="text-md font-wide mt-4 uppercase">
           Article 6. Rétractation{" "}
         </h2>
         <p>
@@ -134,7 +134,7 @@ export default function CGV() {
           retour.
         </p>
 
-        <h2 className="text-md mt-4 font-wide uppercase">
+        <h2 className="text-md font-wide mt-4 uppercase">
           Article 7. Responsabilité{" "}
         </h2>
         <p>
@@ -145,7 +145,7 @@ export default function CGV() {
           du service, ou autres problèmes involontaires.
         </p>
 
-        <h2 className="text-md mt-4 font-wide uppercase">
+        <h2 className="text-md font-wide mt-4 uppercase">
           Article 8. Gestion et souscription à un abonnement
         </h2>
         <p>
@@ -184,7 +184,7 @@ export default function CGV() {
           au plus tard.
         </p>
 
-        <h2 className="text-md mt-4 font-wide uppercase">
+        <h2 className="text-md font-wide mt-4 uppercase">
           Article 9. Données à caractère personnel
         </h2>
         <p>

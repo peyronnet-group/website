@@ -67,7 +67,7 @@ export default function IndexPage() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="z-50 mb-8 max-w-2xl text-lg text-muted-foreground sm:text-xl"
+            className="text-muted-foreground z-50 mb-8 max-w-2xl text-lg sm:text-xl"
           >
             GRP is a company that specializes in designing and delivering
             innovative solutions for various industries and sectors. We create
@@ -213,7 +213,7 @@ export default function IndexPage() {
               {projects.map((project) => (
                 <Card
                   key={project.name}
-                  className="transition-colors hover:border-primary"
+                  className="hover:border-primary transition-colors"
                 >
                   <CardHeader>
                     <CardTitle className="text-xl font-semibold">

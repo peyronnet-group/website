@@ -17,7 +17,7 @@ export default function PrivacyPage() {
           through our website and applications.
         </p>
 
-        <h2 className="m-4 text-left font-wide text-xl font-bold uppercase leading-tight tracking-tighter">
+        <h2 className="font-wide m-4 text-left text-xl leading-tight font-bold tracking-tighter uppercase">
           Information We Collect
         </h2>
 
@@ -41,7 +41,7 @@ export default function PrivacyPage() {
             the Synethia experience manager is enabled.
           </li>
         </ol>
-        <h2 className="m-4 text-left font-wide text-xl font-bold uppercase leading-tight tracking-tighter">
+        <h2 className="font-wide m-4 text-left text-xl leading-tight font-bold tracking-tighter uppercase">
           How We Use Your Information
         </h2>
         <p>
@@ -69,7 +69,7 @@ export default function PrivacyPage() {
           <br />
           We do not sell or rent your personal information to third parties.
         </p>
-        <h2 className="m-4 text-left font-wide text-xl font-bold uppercase leading-tight tracking-tighter">
+        <h2 className="font-wide m-4 text-left text-xl leading-tight font-bold tracking-tighter uppercase">
           How We Protect Your Information
         </h2>
         <p>
@@ -81,7 +81,7 @@ export default function PrivacyPage() {
           However, no security measures are foolproof, and we cannot guarantee
           the security of your personal information.
         </p>
-        <h2 className="m-4 text-left font-wide text-xl font-bold uppercase leading-tight tracking-tighter">
+        <h2 className="font-wide m-4 text-left text-xl leading-tight font-bold tracking-tighter uppercase">
           Your Choices
         </h2>
         <p>
@@ -91,7 +91,7 @@ export default function PrivacyPage() {
           may affect your ability to use certain features of our website and
           applications.
         </p>
-        <h2 className="m-4 text-left font-wide text-xl font-bold uppercase leading-tight tracking-tighter">
+        <h2 className="font-wide m-4 text-left text-xl leading-tight font-bold tracking-tighter uppercase">
           Links to Other Sites
         </h2>
         <p>
@@ -102,7 +102,7 @@ export default function PrivacyPage() {
           over, and assume no responsibility for the content, privacy policies,
           or practices of any third-party sites or services.
         </p>
-        <h2 className="m-4 text-left font-wide text-xl font-bold uppercase leading-tight tracking-tighter">
+        <h2 className="font-wide m-4 text-left text-xl leading-tight font-bold tracking-tighter uppercase">
           Updates to this Privacy Policy
         </h2>
         <p>
@@ -112,7 +112,7 @@ export default function PrivacyPage() {
           These changes are effective immediately, after they are posted on this
           page.
         </p>
-        <h2 className="m-4 text-left font-wide text-xl font-bold uppercase leading-tight tracking-tighter">
+        <h2 className="font-wide m-4 text-left text-xl leading-tight font-bold tracking-tighter uppercase">
           Contact Us
         </h2>
         <p>
