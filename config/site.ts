@@ -1,7 +1,7 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "Peyronnet Group",
+  name: "GRP",
   description: "Where the future unfolds.",
   mainNav: [
     {
